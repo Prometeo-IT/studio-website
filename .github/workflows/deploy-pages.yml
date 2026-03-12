@@ -42,7 +42,7 @@ jobs:
           BASE_PATH: /studio-website/
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
