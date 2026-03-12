@@ -21,6 +21,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -49,6 +51,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment: github-pages
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@4
+        uses: actions/deploy-pages@v4
