@@ -5,23 +5,23 @@ export function Services() {
   const services = [
     {
       icon: Building2,
-      title: 'Commercial',
-      description: 'Office buildings, retail spaces, and mixed-use developments designed for modern business needs.',
+      title: 'Comercial',
+      description: 'Edificios de oficinas, espacios comerciales y desarrollos de uso mixto diseñados para las necesidades empresariales actuales.',
     },
     {
       icon: Home,
-      title: 'Residential',
-      description: 'Custom homes and multi-family housing that prioritize comfort, aesthetics, and sustainability.',
+      title: 'Residencial',
+      description: 'Viviendas a medida y multifamiliares que priorizan el confort, la estética y la sostenibilidad.',
     },
     {
       icon: Ruler,
-      title: 'Interior Design',
-      description: 'Complete interior solutions that complement architectural vision with thoughtful detail.',
+      title: 'Diseño de interiores',
+      description: 'Soluciones interiores completas que complementan la visión arquitectónica con un detalle cuidado.',
     },
     {
       icon: Users,
-      title: 'Consultation',
-      description: 'Expert guidance on design, planning, and project management from concept to completion.',
+      title: 'Consultoría',
+      description: 'Asesoramiento experto en diseño, planificación y gestión de proyectos desde el concepto hasta la entrega.',
     },
   ];
 
@@ -35,9 +35,9 @@ export function Services() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl mb-4 tracking-tight">Our Services</h2>
+          <h2 className="text-3xl md:text-5xl mb-4 tracking-tight">Nuestros servicios</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Comprehensive architectural services tailored to bring your vision to life
+            Servicios arquitectónicos integrales adaptados para dar vida a tu visión
           </p>
         </motion.div>
 

@@ -8,7 +8,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1695067439031-f59068994fae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MzIzOTkxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Modern architecture"
+          alt="Arquitectura moderna"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/30"></div>
@@ -23,10 +23,10 @@ export function Hero() {
           className="text-center text-white max-w-4xl"
         >
           <h1 className="text-4xl md:text-6xl lg:text-7xl mb-6 tracking-tight">
-            Designing Spaces,<br />Creating Experiences
+            Diseñando espacios,<br />creando experiencias
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contemporary architecture studio specializing in residential and commercial design
+            Estudio de arquitectura contemporánea especializado en diseño residencial y comercial
           </p>
           <motion.a
             href="#projects"
@@ -34,7 +34,7 @@ export function Hero() {
             whileTap={{ scale: 0.95 }}
             className="inline-block px-8 py-3 border-2 border-white text-white hover:bg-white hover:text-black transition-colors"
           >
-            View Projects
+            Ver proyectos
           </motion.a>
         </motion.div>
       </div>

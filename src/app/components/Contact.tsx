@@ -5,19 +5,19 @@ export function Contact() {
   const contactInfo = [
     {
       icon: Mail,
-      label: 'Email',
+      label: 'Correo',
       value: 'info@archstudio.com',
       href: 'mailto:info@archstudio.com',
     },
     {
       icon: Phone,
-      label: 'Phone',
+      label: 'Teléfono',
       value: '+1 (555) 123-4567',
       href: 'tel:+15551234567',
     },
     {
       icon: MapPin,
-      label: 'Location',
+      label: 'Ubicación',
       value: '123 Design Street, NY 10001',
       href: '#',
     },
@@ -34,9 +34,9 @@ export function Contact() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-5xl mb-6 tracking-tight">Let's Work Together</h2>
+            <h2 className="text-3xl md:text-5xl mb-6 tracking-tight">Trabajemos juntos</h2>
             <p className="text-white/80 text-lg mb-12">
-              Have a project in mind? We'd love to hear from you. Get in touch to discuss how we can bring your vision to life.
+              ¿Tienes un proyecto en mente? Nos encantaría saber de ti. Ponte en contacto para hablar de cómo podemos dar vida a tu visión.
             </p>
 
             <div className="space-y-6">
@@ -68,28 +68,28 @@ export function Contact() {
               <div>
                 <input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Nombre"
                   className="w-full bg-white/10 border border-white/20 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
                 />
               </div>
               <div>
                 <input
                   type="email"
-                  placeholder="Email"
+                  placeholder="Correo electrónico"
                   className="w-full bg-white/10 border border-white/20 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
                 />
               </div>
               <div>
                 <input
                   type="text"
-                  placeholder="Subject"
+                  placeholder="Asunto"
                   className="w-full bg-white/10 border border-white/20 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
                 />
               </div>
               <div>
                 <textarea
                   rows={5}
-                  placeholder="Message"
+                  placeholder="Mensaje"
                   className="w-full bg-white/10 border border-white/20 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors resize-none"
                 ></textarea>
               </div>
@@ -99,7 +99,7 @@ export function Contact() {
                 whileTap={{ scale: 0.98 }}
                 className="w-full bg-white text-black py-3 px-6 hover:bg-white/90 transition-colors"
               >
-                Send Message
+                Enviar mensaje
               </motion.button>
             </form>
           </motion.div>

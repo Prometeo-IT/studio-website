@@ -7,26 +7,26 @@ export function Projects() {
 
   const projects = [
     {
-      title: 'Modern Villa',
-      category: 'Residential',
-      location: 'Los Angeles, CA',
+      title: 'Villa moderna',
+      category: 'Residencial',
+      location: 'Los Ángeles, CA',
       image: 'https://images.unsplash.com/photo-1758448756880-01dbaf85597d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjByZXNpZGVudGlhbCUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzMyNjg5OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
-      title: 'Glass Tower',
-      category: 'Commercial',
-      location: 'New York, NY',
+      title: 'Torre de cristal',
+      category: 'Comercial',
+      location: 'Nueva York, NY',
       image: 'https://images.unsplash.com/photo-1773085266769-fbee873610bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBhcmNoaXRlY3R1cmUlMjBnbGFzcyUyMGZhY2FkZXxlbnwxfHx8fDE3NzMyNjg5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
-      title: 'Urban Loft',
-      category: 'Interior',
+      title: 'Loft urbano',
+      category: 'Interiores',
       location: 'Chicago, IL',
       image: 'https://images.unsplash.com/photo-1637412816281-f80ec9948fea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBkZXNpZ258ZW58MXx8fHwxNzczMjY4OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
-      title: 'Concrete House',
-      category: 'Residential',
+      title: 'Casa de hormigón',
+      category: 'Residencial',
       location: 'Miami, FL',
       image: 'https://images.unsplash.com/photo-1668536994361-a6aa1fa31050?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjb25jcmV0ZSUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzMyMzMyNTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
@@ -42,9 +42,9 @@ export function Projects() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl mb-4 tracking-tight">Featured Projects</h2>
+          <h2 className="text-3xl md:text-5xl mb-4 tracking-tight">Proyectos destacados</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            A selection of our recent work showcasing our commitment to excellence
+            Una selección de nuestro trabajo reciente que muestra nuestro compromiso con la excelencia
           </p>
         </motion.div>
 

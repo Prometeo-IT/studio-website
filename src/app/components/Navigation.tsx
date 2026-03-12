@@ -5,11 +5,11 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Services', href: '#services' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Inicio', href: '#home' },
+    { label: 'Nosotros', href: '#about' },
+    { label: 'Servicios', href: '#services' },
+    { label: 'Proyectos', href: '#projects' },
+    { label: 'Contacto', href: '#contact' },
   ];
 
   return (
@@ -38,7 +38,7 @@ export function Navigation() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2"
-            aria-label="Toggle menu"
+            aria-label="Abrir o cerrar menú"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

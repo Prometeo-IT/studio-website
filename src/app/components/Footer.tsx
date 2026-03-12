@@ -9,7 +9,7 @@ export function Footer() {
             </div>
           </div>
           <div className="text-sm">
-            © {new Date().getFullYear()} ArchStudio. All rights reserved.
+            © {new Date().getFullYear()} ArchStudio. Todos los derechos reservados.
           </div>
         </div>
       </div>
